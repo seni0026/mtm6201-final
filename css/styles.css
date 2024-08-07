@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Sen:wght@400..800&display=swap');
+
+body {
+  background-color: #1e1e1e;
+  font-family: Sen, Arial, Helvetica, sans-serif;
+}
+
+:root {
+  --ks-primary: #E54D35;
+}
+
+.ks-primary {
+  background-color: var(--ks-primary);
+}
+
+.btn-primary {
+  background-color: var(--ks-primary);
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #cd503d;
+  border: none;
+}
+
+/* Add background image to the home page banner section */
+.home-banner {
+  background: url('../images/home-banner.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 375px;
+}
+
+    /* Add background image to the about page banner section */
+.about-banner {
+  background: url('../images/about-img.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+}
+
+/* Add background image to the contact page banner section */
+.contact-banner {
+  background: url('../images/contact-img.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+}
+
+.align {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    color: #9d1919;
+    text-decoration: underline;
+  }
+
+  .skills {
+    background: #D9D9D9;
+  }
+
+  footer {
+    background: #E54D35;
+    padding-bottom: 0;
+  }
+
+  @media screen and (min-width: 745px) {
+      /* Add background image to the home page banner section */
+    .home-banner {
+      background: url('../images/home-banner.svg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      height: 1500px;
+    }
+
+      /* Add background image to the about page banner section */
+      .about-banner {
+      background: url('../images/about-img.svg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      height: 1000px;
+    }
+
+    /* Add background image to the contact page banner section */
+  .contact-banner {
+    background: url('../images/contact-img.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 1000px;
+  }
+
+  .align {
+    margin-top: 250px;
+    margin-bottom: 100px;
+    background: rgba(0, 0, 0, 0.2);
+  }
+}
